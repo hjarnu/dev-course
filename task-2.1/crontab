@@ -1,0 +1,1 @@
+0 0 * * * find /tmp/* -type f -ctime +14 -size +5M -exec rm -f {} \;
